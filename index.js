@@ -1,9 +1,5 @@
 // set up text to print, each item in array is new line
-var aText = new Array(
-  "Prabir is Working on It",
-  "Available Soon",
-  "You can connect him here"
-);
+var aText = new Array("Prabir is Working on It..", "Available Soon");
 var iSpeed = 100; // time delay of print out
 var iIndex = 0; // start printing array at this posision
 var iArrLength = aText[0].length; // the length of the text array
